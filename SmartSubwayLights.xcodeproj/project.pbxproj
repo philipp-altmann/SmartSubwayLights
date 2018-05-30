@@ -8,22 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		174853D620BF56FF00123528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174853D520BF56FF00123528 /* AppDelegate.swift */; };
-		174853D820BF56FF00123528 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 174853D720BF56FF00123528 /* art.scnassets */; };
 		174853DA20BF56FF00123528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174853D920BF56FF00123528 /* ViewController.swift */; };
-		174853DD20BF56FF00123528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174853DB20BF56FF00123528 /* Main.storyboard */; };
-		174853DF20BF570000123528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174853DE20BF570000123528 /* Assets.xcassets */; };
-		174853E220BF570000123528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174853E020BF570000123528 /* LaunchScreen.storyboard */; };
+		174853ED20BF57BC00123528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174853EA20BF57BC00123528 /* LaunchScreen.storyboard */; };
+		174853EE20BF57BC00123528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174853EB20BF57BC00123528 /* Assets.xcassets */; };
+		174853EF20BF57BC00123528 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 174853EC20BF57BC00123528 /* Info.plist */; };
+		174853F120BF584700123528 /* ViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174853F020BF584700123528 /* ViewController+ARSessionDelegate.swift */; };
+		174853F420BF585D00123528 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174853F320BF585D00123528 /* StatusViewController.swift */; };
+		174853F620BF587E00123528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174853F520BF587E00123528 /* Main.storyboard */; };
+		174853F920BF589B00123528 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 174853F820BF589B00123528 /* SampleCode.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		174853D220BF56FF00123528 /* SmartSubwayLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSubwayLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174853D520BF56FF00123528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		174853D720BF56FF00123528 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		174853D920BF56FF00123528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		174853DC20BF56FF00123528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		174853DE20BF570000123528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		174853E120BF570000123528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		174853E320BF570000123528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174853EA20BF57BC00123528 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		174853EB20BF57BC00123528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		174853EC20BF57BC00123528 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174853F020BF584700123528 /* ViewController+ARSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSessionDelegate.swift"; sourceTree = "<group>"; };
+		174853F320BF585D00123528 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		174853F520BF587E00123528 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		174853F820BF589B00123528 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 			children = (
 				174853D420BF56FF00123528 /* SmartSubwayLights */,
 				174853D320BF56FF00123528 /* Products */,
+				174853F720BF589B00123528 /* Configuration */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +63,39 @@
 			isa = PBXGroup;
 			children = (
 				174853D520BF56FF00123528 /* AppDelegate.swift */,
-				174853D720BF56FF00123528 /* art.scnassets */,
 				174853D920BF56FF00123528 /* ViewController.swift */,
-				174853DB20BF56FF00123528 /* Main.storyboard */,
-				174853DE20BF570000123528 /* Assets.xcassets */,
-				174853E020BF570000123528 /* LaunchScreen.storyboard */,
-				174853E320BF570000123528 /* Info.plist */,
+				174853F020BF584700123528 /* ViewController+ARSessionDelegate.swift */,
+				174853F220BF585D00123528 /* Additional View Controllers */,
+				174853E920BF57BC00123528 /* Resources */,
 			);
 			path = SmartSubwayLights;
+			sourceTree = "<group>";
+		};
+		174853E920BF57BC00123528 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				174853EA20BF57BC00123528 /* LaunchScreen.storyboard */,
+				174853F520BF587E00123528 /* Main.storyboard */,
+				174853EB20BF57BC00123528 /* Assets.xcassets */,
+				174853EC20BF57BC00123528 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		174853F220BF585D00123528 /* Additional View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				174853F320BF585D00123528 /* StatusViewController.swift */,
+			);
+			path = "Additional View Controllers";
+			sourceTree = "<group>";
+		};
+		174853F720BF589B00123528 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				174853F820BF589B00123528 /* SampleCode.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,10 +156,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				174853D820BF56FF00123528 /* art.scnassets in Resources */,
-				174853E220BF570000123528 /* LaunchScreen.storyboard in Resources */,
-				174853DF20BF570000123528 /* Assets.xcassets in Resources */,
-				174853DD20BF56FF00123528 /* Main.storyboard in Resources */,
+				174853F620BF587E00123528 /* Main.storyboard in Resources */,
+				174853ED20BF57BC00123528 /* LaunchScreen.storyboard in Resources */,
+				174853EE20BF57BC00123528 /* Assets.xcassets in Resources */,
+				174853F920BF589B00123528 /* SampleCode.xcconfig in Resources */,
+				174853EF20BF57BC00123528 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,31 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174853F420BF585D00123528 /* StatusViewController.swift in Sources */,
+				174853F120BF584700123528 /* ViewController+ARSessionDelegate.swift in Sources */,
 				174853DA20BF56FF00123528 /* ViewController.swift in Sources */,
 				174853D620BF56FF00123528 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		174853DB20BF56FF00123528 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				174853DC20BF56FF00123528 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		174853E020BF570000123528 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				174853E120BF570000123528 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		174853E420BF570000123528 /* Debug */ = {
@@ -286,7 +301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X6VW9NKB6;
-				INFOPLIST_FILE = SmartSubwayLights/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SmartSubwayLights/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X6VW9NKB6;
-				INFOPLIST_FILE = SmartSubwayLights/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SmartSubwayLights/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
